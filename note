@@ -1,1 +1,15 @@
 border-radius: độ cong đường viền
+background-color: mau nen;
+color: mau chu
+
+    background: white url(1.jpg) no-repeat left top;
+    white url(1.jpg) no-repeat left top;
+
+no-repeat: khong lap nen;
+repeat: lap nen;
+repeat-x lap nen ngang;
+repeat-y lap nen doc;
+
+------
+Float - clear:
+flex
