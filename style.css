@@ -1,51 +1,80 @@
 *{
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-#header{
-    height: 60px;
-    background: pink;
-}
-#menu{
-    background: pink;
-    height: 60px;
-}
-#content{
-    width: 1024px;
     margin: 0 auto;
-    background: #fcfcfc;
 }
-#slider{
-    height: 300px;
-    background: #dd66bb
-}
-.section{
-    border-bottom: 1px solid black;
-    margin: 45px;
-}
-.section div div{
-    padding: 10px;
-    width: 25%;
-    float: left;
-    height: 200px;
+#container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .clear-fix::after{
-display: block;
-content: '';
-clear: both;
+    clear: both;
+    content: '';
+    display: block;
 }
-.section div div div{
- background: black;
- height: 100%;
- width: 100%;
+#menu{
+    background: aqua;
 }
-#top{
-    margin: 0px 30px;
-    background: blueviolet;
-    height: 350px;
+#logo{
+    width: ;
+    float: left;
 }
-#category div div div{
+#logo img{
+    height: 50px;
+}
+#sileder{
+    margin-top: 5px;
+    height: 300px;
+    background: black;
+    text-align: center;
     color: white;
+}
+#topsale{
+    border:1px solid white;
+    background: olive;
+}
+#topsale div div{
+    margin: 5px;
+    margin-left: 6.5px;
+    height: 200px;
+    width: 24%;
+    float: left;
+    background: whitesmoke;
+}
+#sidebar{
+    background: white;
+    float: left;
+    width: 20%;
+}
+#sidebar div{
+    margin-top: 10px;
+    border: 1px solid orangered;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 80%;
+}
+#sidebar a{
+    text-decoration: none;
+}
+#sidebar a:hover{
+    color: yellow;
+}
+#product{
+    width: 80%;
+    float: left;
+}
+#product div{
+    margin: 4px;
+    float: left;
+    width: 24%;
+    height: 200px;
+    background: slategray;
+}
+#section{
+    margin: 0px 0px 10px 10px;
+}
+#footer{
+    background: thistle;
+    text-align: center;
+    height: 50px;
 }

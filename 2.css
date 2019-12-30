@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 60px;
+    background: pink;
+}
+#menu{
+    background: pink;
+    height: 60px;
+}
+#content{
+    width: 1024px;
+    margin: 0 auto;
+    background: #fcfcfc;
+}
+#slider{
+    height: 300px;
+    background: #dd66bb
+}
+.section{
+    border-bottom: 1px solid black;
+    margin: 45px;
+}
+.section div div{
+    padding: 10px;
+    width: 25%;
+    float: left;
+    height: 200px;
+}
+.clear-fix::after{
+display: block;
+content: '';
+clear: both;
+}
+.section div div div{
+ background: black;
+ height: 100%;
+ width: 100%;
+}
+#top{
+    margin: 0px 30px;
+    background: blueviolet;
+    height: 350px;
+}
+#category div div div{
+    color: white;
+}
